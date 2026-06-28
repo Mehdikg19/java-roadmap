@@ -8,7 +8,7 @@ Every variable must have a data type.
 
 Java is a statically typed language, so every variable must be declared before it is used.
 
-Variables can be declared first and initialized later, or both in a single statement.
+fundamentals.variables can be declared first and initialized later, or both in a single statement.
 
 Primitive data types store simple values directly.
 

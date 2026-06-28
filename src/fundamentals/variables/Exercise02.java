@@ -1,14 +1,14 @@
 /*
  * ============================================================
  * Repository : java-roadmap
- * Topic      : Variables and Data Types
+ * Topic      : fundamentals.Variables and Data Types
  * File       : Exercise02.java
  * Description: Store and display book information using variables.
  * Author     : Mehdi
  * ============================================================
  */
 
-package fundamentals;
+package fundamentals.variables;
 
 public class Exercise02 {
 

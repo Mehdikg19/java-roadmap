@@ -1,16 +1,16 @@
 /*
  * ============================================================
  * Java Roadmap
- * Topic: Practice
- * File: Practice.java
+ * Topic: Playground
+ * File: Playground.java
  * Description: This file is used for temporary code,
  * experiments, and testing Java concepts during learning.
  * Author: Mehdi
  * ============================================================
  */
-package fundamentals;
+package fundamentals.variables;
 
-public class Practice {
+public class Playground {
 
     public static void main(String[] args) {
 

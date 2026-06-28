@@ -1,13 +1,13 @@
 /*
  * ============================================================
  * Repository : java-roadmap
- * Topic      : Variables and Data Types
+ * Topic      : fundamentals.Variables and Data Types
  * File       : Exercise01.java
  * Description: Create variables and print their values.
  * Author     : Mehdi
  * ============================================================
  */
-package fundamentals;
+package fundamentals.variables;
 
 public class Exercise01 {
 

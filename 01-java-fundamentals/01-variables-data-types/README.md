@@ -1,4 +1,4 @@
-01 - Variables and Data Types
+01 - fundamentals.variables and Data Types
 
 Objective
 
@@ -6,7 +6,7 @@ Learn how to declare variables, initialize them, and understand Java primitive d
 
 Topics
 
-Variables
+fundamentals.variables
 
 Primitive Data Types
 
@@ -84,7 +84,7 @@ String name = "Mehdi"; int age = 22; double height = 1.78; boolean student = tru
 
 Files
 
-FileDescriptionExample01.javaBasic variable declaration and outputExample02.javaUsing different primitive data typesExercise01.javaPractice with variablesExercise02.javaBook information exerciseNotes.mdSummary and key pointsCompleted.mdCompletion status and review 
+FileDescriptionExample01.javaBasic variable declaration and outputExample02.javaUsing different primitive data typesExercise01.javaPlayground with variablesExercise02.javaBook information exerciseNotes.mdSummary and key pointsCompleted.mdCompletion status and review 
 
 Learning Outcome
 

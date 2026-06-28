@@ -1,13 +1,13 @@
 /*
  * ============================================================
  * Repository : java-roadmap
- * Topic      : Variables and Data Types
+ * Topic      : fundamentals.Variables and Data Types
  * File       : Example01.java
  * Description: Basic variable declaration and console output.
  * Author     : Mehdi
  * ============================================================
  */
-package fundamentals;
+package fundamentals.variables;
 
 public class Example01 {
 

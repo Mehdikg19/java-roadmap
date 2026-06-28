@@ -20,7 +20,7 @@ https://docs.oracle.com/javase/specs/
 
 ## Recommended Reading
 
-- Variables
+- fundamentals.variables
 - Primitive Data Types
 - Java Naming Conventions
 

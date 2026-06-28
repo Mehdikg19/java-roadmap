@@ -2,7 +2,7 @@ Completed
 
 Section
 
-01 - Variables and Data Types
+01 - fundamentals.variables and Data Types
 
 Status
 
