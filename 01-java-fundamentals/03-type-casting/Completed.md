@@ -1,30 +1,24 @@
+Type Casting
+
 Completed
 
-Module Status
+Section
+
+01 - Fundamentals / Type Casting
+
+Status
 
 ✅ Completed
 
-Completed Topics
+Files
 
-Implicit (Widening) Casting
+README.md
 
-Explicit (Narrowing) Casting
+Notes.md
 
-Data Loss
+Resources.md
 
-Character to Integer Conversion
-
-Unicode / ASCII Values
-
-Integer Division
-
-Casting Before vs After Operations
-
-Overflow During Narrowing Conversion
-
-Practical Work
-
-Completed:
+Completed.md
 
 Example01.java
 
@@ -36,26 +30,24 @@ Exercise02.java
 
 Playground.java
 
-Skills Gained
+Review
 
-After completing this module, I can:
+✔ Implicit casting (Widening)
 
-Explain the difference between implicit and explicit casting.
+✔ Explicit casting (Narrowing)
 
-Predict the result of primitive type conversions.
+✔ Primitive type conversion
 
-Identify situations where data loss occurs.
+✔ Data loss during narrowing conversion
 
-Explain integer division behavior.
+✔ Character to integer conversion (ASCII/Unicode)
 
-Convert between primitive numeric types correctly.
+✔ Integer to character conversion
 
-Understand character-to-integer conversion.
+✔ Clean coding practices
 
-Recognize overflow during narrowing conversions.
+Remarks
 
-Apply type casting correctly in mathematical expressions.
+Successfully completed all examples and exercises.
 
-Next Module
-
-Module 04 — Control Flow
+The source code demonstrates safe and correct type conversions, highlights the differences between implicit and explicit casting, and follows Java coding conventions.

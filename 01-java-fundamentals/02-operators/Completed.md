@@ -1,45 +1,53 @@
-Completed
-
 Operators
 
-[x] Arithmetic Operators
+Completed
 
-[x] Comparison Operators
+Section
 
-[x] Assignment Operator
-
-[x] Operator Precedence (Introduction)
-
-Practice
-
-[x] Example01
-
-[x] Example02
-
-[x] Exercise01
-
-[x] Exercise02
-
-[x] Playground
+01 - Fundamentals / Operators
 
 Status
 
-✔ Module CompletedResources
+✅ Completed
 
-Official Documentation
+Files
 
-Oracle Java Tutorials – Operators
+README.md
 
-Recommended Books
+Notes.md
 
-Effective Java (Joshua Bloch)
+Resources.md
 
-Head First Java
+Completed.md
 
-Practice
+Example01.java
 
-Rewrite every example without looking.
+Example02.java
 
-Solve the exercises before checking the output.
+Exercise01.java
 
-Experiment in Playground.java.
+Exercise02.java
+
+Playground.java
+
+Review
+
+✔ Arithmetic operators
+
+✔ Assignment operators
+
+✔ Unary operators (++, --)
+
+✔ Compound assignment operators (+=, -=, *=, /=)
+
+✔ Modulus operator (%)
+
+✔ Operator precedence
+
+✔ Clean coding practices
+
+Remarks
+
+Successfully completed all examples and exercises.
+
+The source code demonstrates correct usage of Java operators, follows clean coding principles, and uses readable and maintainable examples.

@@ -1,8 +1,10 @@
+Variables & Data Types
+
 Completed
 
 Section
 
-01 - fundamentals.variables and Data Types
+01 - Fundamentals / Variables & Data Types
 
 Status
 
@@ -12,6 +14,12 @@ Files
 
 README.md
 
+Notes.md
+
+Resources.md
+
+Completed.md
+
 Example01.java
 
 Example02.java
@@ -20,7 +28,7 @@ Exercise01.java
 
 Exercise02.java
 
-Notes.md
+Playground.java
 
 Review
 
@@ -30,18 +38,16 @@ Review
 
 ✔ Primitive data types
 
+✔ Variable assignment
+
 ✔ Variable naming rules
 
-✔ Console output
+✔ Console output (System.out.println())
 
-✔ Clean Code principles
-
-Overall Score
-
-9.9 / 10
+✔ Clean coding practices
 
 Remarks
 
 Successfully completed all examples and exercises.
 
-The code follows Java naming conventions, uses meaningful variable names, and demonstrates clean and readable coding practices.
+The source code follows Java naming conventions, uses meaningful variable names, and demonstrates clean, readable, and maintainable coding practices.
