@@ -1,6 +1,6 @@
 # Java Roadmap Checklist
 
-Version: 1.0
+Version: 1.1
 
 This document defines the development standards, learning workflow, coding conventions, and quality checklist for the Java Roadmap project.
 
@@ -35,6 +35,17 @@ Rule: Update documentation only after finishing the module.
 - [ ] Exercise01.java
 - [ ] Exercise02.java
 - [ ] Playground.java
+
+---
+
+# CODE REVIEW
+
+- [ ] Correctness
+- [ ] Clean Code
+- [ ] Java Style
+- [ ] Best Practice
+- [ ] Readability
+- [ ] Overall Score
 
 ---
 
@@ -140,9 +151,3 @@ Rule: Update documentation only after finishing the module.
 - [ ] Spring Boot
 - [ ] Docker
 - [ ] Cloud
-
----
-
-Project Goal
-
-Build a clean, professional, and well-documented Java learning repository that demonstrates not only Java syntax, but also software engineering practices, code quality, Git workflow, and continuous learning.
