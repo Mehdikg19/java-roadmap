@@ -1,10 +1,10 @@
 # Java Roadmap Checklist
 
-Version: 1.1
+Version: 2.0
 
 This document defines the development standards, learning workflow, coding conventions, and quality checklist for the Java Roadmap project.
 
-> Last Updated: 2026-06-29
+> Last Updated: 2026-07-08
 
 ---
 
@@ -24,7 +24,14 @@ This document defines the development standards, learning workflow, coding conve
 - [ ] Resources.md
 - [ ] Completed.md
 
-Rule: Update documentation only after finishing the module.
+Rules:
+
+- [ ] Update documentation only after finishing the module.
+- [ ] Avoid duplicate explanations across files.
+- [ ] Keep all educational explanations inside Notes.md.
+- [ ] Keep Playground.java for experiments only.
+- [ ] Resources.md should contain learning references and optional practice ideas.
+- [ ] Completed.md should summarize completed concepts and practical work.
 
 ---
 
@@ -40,12 +47,18 @@ Rule: Update documentation only after finishing the module.
 
 # CODE REVIEW
 
+Every submitted Exercise must be reviewed for:
+
 - [ ] Correctness
 - [ ] Clean Code
 - [ ] Java Style
 - [ ] Best Practice
 - [ ] Readability
+- [ ] Naming Convention
+- [ ] Logic
 - [ ] Overall Score
+
+Generate the final copy-ready version only after the review is complete.
 
 ---
 
@@ -57,18 +70,19 @@ Rule: Update documentation only after finishing the module.
 - [ ] Keep consistent code formatting and indentation.
 - [ ] Use meaningful class and variable names.
 - [ ] Print variables using descriptive labels.
-- [ ] Keep Playground.java for personal experiments only.
+- [ ] Follow Java Naming Conventions.
+- [ ] Use comments only when they improve readability.
 
 ---
 
 # EXAMPLE DESIGN RULES
 
-- [ ] Every Example must teach one meaningful concept.
-- [ ] Avoid repetitive examples with only different numbers.
-- [ ] Include at least one real-world scenario whenever possible.
-- [ ] Highlight common mistakes and explain why they happen.
+- [ ] Every Example teaches one meaningful concept.
+- [ ] Avoid repetitive examples.
+- [ ] Include real-world scenarios whenever possible.
 - [ ] Encourage prediction before execution.
-- [ ] Show both correct and incorrect approaches when valuable.
+- [ ] Show incorrect approaches when educational.
+- [ ] Do not duplicate explanations from Notes.md.
 
 ---
 
@@ -78,17 +92,50 @@ Rule: Update documentation only after finishing the module.
 - [ ] Exercise02 combines concepts and increases difficulty.
 - [ ] Exercises should require thinking, not copying.
 - [ ] Avoid repeating previous exercises.
+- [ ] The student writes the solution first.
+- [ ] Review the submitted solution before generating the final version.
+- [ ] Prepare the copy-ready file only after approval.
 
 ---
 
 # PLAYGROUND RULES
 
-- [ ] Use Playground.java for experiments and language exploration.
-- [ ] Keep only meaningful experiments.
-- [ ] Add short comments explaining unexpected behavior.
-- [ ] Organize Playground.java before committing.
-- [ ] At the end of every module, create one final Playground.java containing all valuable experiments.
-- [ ] Do not replace Examples with Playground experiments.
+- [ ] Playground.java is for experiments only.
+- [ ] Do not repeat Examples or Exercises.
+- [ ] Explore compiler behavior.
+- [ ] Explore JVM behavior when applicable.
+- [ ] Include Edge Cases.
+- [ ] Include at least one real-world programming mistake.
+- [ ] Encourage reasoning before execution.
+- [ ] Keep experiments clean and organized.
+- [ ] Do not include Notes or Summary inside Playground.java.
+- [ ] Expected Observations may be included when useful.
+
+---
+
+# LEARNING WORKFLOW
+
+- [ ] Review the previous lesson before starting a new one.
+- [ ] Learn concepts step by step.
+- [ ] Teach concept first.
+- [ ] Complete Example01.
+- [ ] Complete Example02.
+- [ ] Student solves Exercise01.
+- [ ] Review Exercise01.
+- [ ] Generate final Exercise01.
+- [ ] Student solves Exercise02.
+- [ ] Review Exercise02.
+- [ ] Generate final Exercise02.
+- [ ] Complete Playground.java.
+- [ ] Complete README.md.
+- [ ] Complete Notes.md.
+- [ ] Complete Resources.md.
+- [ ] Complete Completed.md.
+- [ ] Review the entire module.
+- [ ] Commit the module.
+- [ ] Push to GitHub.
+- [ ] Verify GitHub repository.
+- [ ] Start the next module.
 
 ---
 
@@ -99,15 +146,22 @@ Rule: Update documentation only after finishing the module.
 - [ ] Understand why wrong answers are wrong.
 - [ ] Ask "What happens if...?" whenever possible.
 - [ ] Focus on concepts instead of memorization.
+- [ ] Understand common beginner mistakes.
+- [ ] Learn professional best practices alongside Java syntax.
 
 ---
 
 # GIT WORKFLOW
 
-- [ ] Review all files before staging.
-- [ ] Run git status before every commit.
-- [ ] Stage all required changes.
-- [ ] Write a clear and meaningful commit message.
+Before every Git command:
+- [ ] Verify that you are inside the java-roadmap directory.
+
+Before every Commit:
+
+- [ ] Run git status.
+- [ ] Review all modified files.
+- [ ] Stage the required files.
+- [ ] Write a meaningful commit message.
 - [ ] Commit the project.
 - [ ] Push to GitHub.
 - [ ] Verify the repository after every push.
@@ -121,7 +175,9 @@ Rule: Update documentation only after finishing the module.
 - [ ] Documentation is complete.
 - [ ] Expected outputs are verified.
 - [ ] Repository structure is consistent.
-- [ ] Every module is complete before moving to the next one.
+- [ ] No duplicated educational content.
+- [ ] Repository follows roadmap standards.
+- [ ] Module is complete before moving forward.
 
 ---
 
@@ -131,10 +187,13 @@ Rule: Update documentation only after finishing the module.
 
 - [x] Module 01 — Variables & Data Types
 - [x] Module 02 — Operators
+- [x] Module 03 — Type Casting
+- [x] Module 04 — Input / Output (Scanner)
+- [x] Module 05 — Constants & final
 
 ### In Progress
 
-- [ ] Module 03 — Type Casting
+- [ ] Module 06 — String Basics
 
 ### Upcoming Modules
 
@@ -151,3 +210,9 @@ Rule: Update documentation only after finishing the module.
 - [ ] Spring Boot
 - [ ] Docker
 - [ ] Cloud
+
+---
+
+# PROJECT GOAL
+
+Build a clean, professional, and production-quality Java learning repository that develops strong Java fundamentals before moving to Spring Boot, backend development, Docker, Cloud, and enterprise-level projects.
