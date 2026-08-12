@@ -11,7 +11,7 @@
  * ============================================================
  */
 
-package methods.arrays.methods;
+package methodsandarrays.methods;
 
 public class Playground
 {

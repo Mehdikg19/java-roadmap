@@ -3,27 +3,26 @@
  * Java Roadmap Project
  * Topic      : 03-Methods and Arrays
  * Lesson     : 01-methods
- * File       : Example02.java
+ * File       : Example01.java
  * Package    : methods.arrays.methods
- * Description: Demonstrates how a method can receive parameters
- *              and return a calculated value.
+ * Description: Demonstrates how to define and call a simple method.
  * ============================================================
  */
 
-package methods.arrays.methods;
+package methodsandarrays.methods;
 
-public class Example02
+public class Example01
 {
-    static int calculateSum(int number1, int number2)
+    static double calculateArea(double length, double width)
     {
-        return number1 + number2;
+        return length * width;
     }
 
     public static void main(String[] args)
     {
-        int sum = calculateSum(10, 20);
+        double area = calculateArea(10.5, 5);
 
-        System.out.println("Sum = " + sum);
+        System.out.println("Area = " + area);
     }
 }
 
@@ -32,6 +31,6 @@ public class Example02
  * Expected Output
  * ============================
  *
- * 30
+ * 52.5
  *
  */
